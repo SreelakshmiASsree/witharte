@@ -16,7 +16,7 @@ export default function Underconstruction() {
                     <div className="relative">
                         <Image src={logo} alt="logo" className="lg:w-3xl w-2xl object-contain" />
                     </div>
-                    <div className="absolute lg:bottom-56 bottom-48">
+                    <div className="absolute lg:bottom-56 bottom-60">
                         <p className=" lg:text-lg text-sm font-normal tracking-widest">WE  ARE  PUBLISHING  SOON...</p>
                     </div>
                 </div>
