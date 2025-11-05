@@ -1,6 +1,8 @@
 import Image from "next/image";
 import bgimage from "../../../public/images/bg.jpg"
 import logo from "../../../public/images/logo.jpg"
+import { FiPhoneCall  } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa6";
 export default function Underconstruction() {
     return (
         <>
@@ -19,10 +21,19 @@ export default function Underconstruction() {
                     <div className="absolute lg:bottom-56 bottom-60">
                         <p className=" lg:text-lg text-sm font-normal tracking-widest">WE  ARE  PUBLISHING  SOON...</p>
                     </div>
+                    <div className="flex gap-5 ">
+                <a href="https://www.instagram.com/witharte_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram  className="md:text-3xl text-lg text-[#ffffff]" />
+                </a>
+                <p className="text-[#ffffff] text-2xl font-medium flex items-center gap-1">
+                    <span><FiPhoneCall /></span>
+                    <a href=""></a>+91 9633249362
+                </p>
+            </div>
                 </div>
 
             </div>
-
+            
         </>
     )
 }
