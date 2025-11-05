@@ -23,9 +23,9 @@ export default function Underconstruction() {
                     </div>
                     <div className="flex gap-5 ">
                 <a href="https://www.instagram.com/witharte_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
-                    <FaInstagram  className="md:text-3xl text-lg text-[#ffffff]" />
+                    <FaInstagram  className="md:text-3xl text-2xl text-[#ffffff]" />
                 </a>
-                <p className="text-[#ffffff] text-2xl font-medium flex items-center gap-1">
+                <p className="text-[#ffffff] md:text-2xl text-xl font-medium flex items-center gap-1">
                     <span><FiPhoneCall /></span>
                     <a href=""></a>+91 9633249362
                 </p>
