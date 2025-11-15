@@ -12,7 +12,7 @@ export default function Underconstruction() {
                 <div className="absolute inset-0 flex flex-col items-center justify-center z-10 text-white">
                     <div className="relative">
                         <Image src={logo} alt="logo" className="lg:w-3xl w-2xl object-contain" />
-                        <div className="absolute lg:top-80 lg:left-80  top-[155px] left-[87px]">
+                        <div className="absolute lg:top-80 lg:left-44  top-[155px] left-[87px]">
                             <p className="text-center lg:text-5xl text-2xl font-extralight">Gallery</p>
                         </div>
                     </div>
